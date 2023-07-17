@@ -4,6 +4,9 @@
 - 💞️ I’m looking to collaborate on not just now, a year later
 - 📫 How to reach me: smproskuryakov@yandex.ru
 
+
+#Here is first homework presentation:
+
 * Markdown
 ![Markdown](netology-md.bmp)
 * Bash
