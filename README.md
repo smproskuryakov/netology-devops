@@ -5,7 +5,7 @@
 - 📫 How to reach me: smproskuryakov@yandex.ru
 
 
-#Here is first homework presentation:
+# Here is first homework presentation:
 
 * Markdown
 ![Markdown](netology-md.bmp)
