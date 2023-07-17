@@ -5,9 +5,9 @@
 - 📫 How to reach me: smproskuryakov@yandex.ru
 
 1) ![Markdown](netology-md.bmp)
-2) ![Markdown](netology-sh.bmp)
-3) ![Markdown](netology-tf.bmp)
-4) ![Markdown](netology-yaml.bmp)
+2) ![Bash](netology-sh.bmp)
+3) ![Terraform](netology-tf.bmp)
+4) ![YAML](netology-yaml.bmp)
 
 <!---
 smproskuryakov/smproskuryakov is a ✨ special ✨ repository because its `README.md` (this file) appears on your GitHub profile.
