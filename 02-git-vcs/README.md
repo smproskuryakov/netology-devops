@@ -1,4 +1,4 @@
-# Added next file templates for Terraform that will be ignored by git:
+# Добавлены следующие шаблоны файлов для Terraform, которые будут проигнорированы git'ом:
 
 # Игнорировать файлы с состоянием Terraform
 *.tfstate
