@@ -1,56 +1,56 @@
-# Добавлены следующие шаблоны файлов для Terraform, которые будут проигнорированы git'ом:
+### Добавлены следующие шаблоны файлов для Terraform, которые будут проигнорированы git'ом:
 
-# Игнорировать файлы с состоянием Terraform
+### Игнорировать файлы с состоянием Terraform
 *.tfstate
 *.tfstate.*
 *.tfplan
 
-# Игнорировать файлы с переменными окружения (локальными и не только)
+### Игнорировать файлы с переменными окружения (локальными и не только)
 *.tfvars
 override.tf
 override.tf.json
 *_override.tf
 *_override.tf.json
 
-# Игнорировать файлы с ключами SSH
+### Игнорировать файлы с ключами SSH
 *.pub
 *.pem
 
-# Игнорировать каталог .terraform с загруженными модулями
+### Игнорировать каталог .terraform с загруженными модулями
 .terraform/
 
-# Игнорировать временные файлы
+### Игнорировать временные файлы
 *~
 *.swp
 
-# Игнорировать файлы настроек среды разработки
+### Игнорировать файлы настроек среды разработки
 .vscode/
 .idea/
 
-# Игнорировать виртуальное окружение
+### Игнорировать виртуальное окружение
 venv/
 __pycache__/
 
-# Игнорировать зависимости
+### Игнорировать зависимости
 *.pyc
 *.pyo
 *.pyd
 
-# Игнорировать папку node_modules и её содержимое
+### Игнорировать папку node_modules и её содержимое
 node_modules/
 
-# Игнорировать локально установленные зависимости
+### Игнорировать локально установленные зависимости
 package-lock.json
 yarn.lock
 
-# Игнорировать файлы базы данных
+### Игнорировать файлы базы данных
 *.db
 *.sqlite
 
-# Игнорировать скомпилированные классы
+### Игнорировать скомпилированные классы
 *.class
 
-# Игнорировать каталоги сборки
+### Игнорировать каталоги сборки
 target/
 bin/
 
@@ -60,7 +60,7 @@ bin/
 
 
 
-# Installing and initializing Git
+### Installing and initializing Git
 
 ~~~
 sudo apt install git
@@ -71,7 +71,7 @@ git config --global --add safe.directory /mnt/git-repo/netology-devops
 git status
 ~~~
 
-# Setup and add README.md in first commit
+### Setup and add README.md in first commit
 ~~~
 git status
 git config --global user.email "smproskuryakov@yandex.ru" && git config --global user.name "smproskuryakov"
@@ -85,11 +85,11 @@ git commit -m 'First commit'
 git status
 ~~~
 
-# Add .gitignore
+### Add .gitignore
 ~~~
 touch .gitignore
 echo -e '*.[oa]\n *~\n' > .gitignore
-echo -e '# Added next file templates that will be ignored by git:\n *.[oa]\n *~\n' > README.md
+echo -e '### Added next file templates that will be ignored by git:\n *.[oa]\n *~\n' > README.md
 mkdir ./Terraform && touch ./Terraform/.gitignore
 git status
 git diff
@@ -102,7 +102,7 @@ git status
 git commit -m "Added gitignore"
 ~~~
 
-# Deleting and moving files in third and fourth commit
+### Deleting and moving files in third and fourth commit
 ~~~
 echo "will_be_deleted" > will_be_deleted.txt
 echo "will_be_moved" > will_be_moved.txt 
