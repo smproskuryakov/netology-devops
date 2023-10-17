@@ -1,9 +1,64 @@
-# Added next file templates that will be ignored by git:
+# Added next file templates for Terraform that will be ignored by git:
 
-~~~
- *.[oa]
- *~
-~~~
+# Игнорировать файлы с состоянием Terraform
+*.tfstate
+*.tfstate.*
+*.tfplan
+
+# Игнорировать файлы с переменными окружения (локальными и не только)
+*.tfvars
+override.tf
+override.tf.json
+*_override.tf
+*_override.tf.json
+
+# Игнорировать файлы с ключами SSH
+*.pub
+*.pem
+
+# Игнорировать каталог .terraform с загруженными модулями
+.terraform/
+
+# Игнорировать временные файлы
+*~
+*.swp
+
+# Игнорировать файлы настроек среды разработки
+.vscode/
+.idea/
+
+# Игнорировать виртуальное окружение
+venv/
+__pycache__/
+
+# Игнорировать зависимости
+*.pyc
+*.pyo
+*.pyd
+
+# Игнорировать папку node_modules и её содержимое
+node_modules/
+
+# Игнорировать локально установленные зависимости
+package-lock.json
+yarn.lock
+
+# Игнорировать файлы базы данных
+*.db
+*.sqlite
+
+# Игнорировать скомпилированные классы
+*.class
+
+# Игнорировать каталоги сборки
+target/
+bin/
+
+
+
+
+
+
 
 # Installing and initializing Git
 
