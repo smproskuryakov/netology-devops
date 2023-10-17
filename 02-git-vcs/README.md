@@ -1,8 +1,12 @@
 # Added next file templates that will be ignored by git:
+
+~~~
  *.[oa]
  *~
+~~~
 
 # Installing and initializing Git
+
 ```
 sudo apt install git
 git clone https://github.com/smproskuryakov/netology-devops.git
