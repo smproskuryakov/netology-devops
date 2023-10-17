@@ -8,13 +8,13 @@
 # Here is first homework presentation:
 
 * Markdown
-![Markdown](netology-md.bmp)
+![Markdown](/img/netology-md.bmp)
 * Bash
-![Bash](netology-sh.bmp)
+![Bash](/img/netology-sh.bmp)
 * Terraform
-![Terraform](netology-tf.bmp)
+![Terraform](/img/netology-tf.bmp)
 * YAML
-![YAML](netology-yaml.bmp)
+![YAML](/img/netology-yaml.bmp)
 
 <!---
 smproskuryakov/smproskuryakov is a ✨ special ✨ repository because its `README.md` (this file) appears on your GitHub profile.
