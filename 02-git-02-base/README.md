@@ -111,6 +111,8 @@ To gitlab.com:netology-devops-35/netology-devops.git
  * [new tag]         v0.2 -> v0.2
 @smproskuryakov ➜ /workspaces/netology-devops (master) $ 
 </pre>
+
+#### Просмотр тегов в графическом режиме, удаление случайного тега "show"
 ![Просмотр тегов в графическом режиме, удаление случайного тега "show"](img/tags-graph.png)
 
 
