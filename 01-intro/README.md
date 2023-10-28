@@ -7,7 +7,7 @@
 
 # Here is first homework presentation:
 
-![Description of the development process](01-intro/Description of the development process.md)
+[Description of the development process](01-intro/Description of the development process.md)
 
 ## Markdown
 ![Markdown](img/netology-md.bmp)
@@ -18,9 +18,3 @@
 ## YAML
 ![YAML](img/netology-yaml.bmp)
 
-
-
-<!---
-smproskuryakov/smproskuryakov is a ✨ special ✨ repository because its `README.md` (this file) appears on your GitHub profile.
-You can click the Preview link to take a look at your changes.
---->
