@@ -5,4 +5,4 @@
 
 [«Системы контроля версий»](https://github.com/smproskuryakov/netology-devops/blob/master/02-git-vcs/README.md)
 
-[«Основы Git»]()
+[«Основы Git»](https://github.com/smproskuryakov/netology-devops/blob/master/02-git-02-base/README.md)
