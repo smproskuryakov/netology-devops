@@ -7,7 +7,7 @@
 
 # Here is first homework presentation:
 
-[Description of the development process](/Description of the development process.md)
+[Description of the development process](Description of the development process.md)
 
 ## Markdown
 ![Markdown](img/netology-md.bmp)
