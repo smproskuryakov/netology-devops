@@ -31,16 +31,19 @@ origin  https://github.com/smproskuryakov/netology-devops (push)*
 
 ## Работа с IDE VS Code в графическом режиме ОС Windows, Linux shell и Codespaces
 
+![](img/vscode-start.png)
+![](img/git-clone-gitlab-https.png)
+![](img/open-netologydevops-graphis.png)
 ![](img/index-changes.png)
 ![](img/open-netologydevops-graphis.png)
-![](img/vscode-start.png)
 ![](img/gitlab-new-repo.png)
-![](img/git-clone-gitlab-https.png)
 ![](img/git-remote-add-gitlab.png)
-![](img/open-netologydevops-graphis.png)
 ![](img/codespaces-web-ide.png)
 ![](img/commit-push.png)
 ![](img/git-lab-project-overview.png)
 ![](img/git-push-ssh.png)
 ![](img/git-remote-add-github-ssh.png)
 ![](img/vs-code-gitlens-commitgraph-tags.png)
+
+
+
