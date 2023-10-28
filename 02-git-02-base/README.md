@@ -37,12 +37,12 @@ origin  https://github.com/smproskuryakov/netology-devops (push)*
 ![](img/open-netologydevops-graphis.png)
 ![](img/index-changes.png)
 ![](img/gitlab-new-repo.png)
-![](img/codespaces-web-ide.png)
 ![](img/commit-push.png)
 ![](img/git-lab-project-overview.png)
 ![](img/git-push-ssh.png)
 ![](img/git-remote-add-github-ssh.png)
 ![](img/vs-code-gitlens-commitgraph-tags.png)
+![](img/codespaces-web-ide.png)
 
 
 
