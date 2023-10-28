@@ -4,9 +4,6 @@
 - 💞️ I’m looking to collaborate on not just now, a year later
 - 📫 How to reach me: smproskuryakov@yandex.ru
 
-
-# Here is first homework presentation:
-
 [Description of the development process.](https://github.com/smproskuryakov/netology-devops/blob/master/01-intro/Description%20of%20the%20development%20process.md)
 
 ## Markdown
