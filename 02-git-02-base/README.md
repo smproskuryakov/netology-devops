@@ -31,17 +31,37 @@ origin  https://github.com/smproskuryakov/netology-devops (push)*
 
 ## Работа с IDE VS Code в графическом режиме ОС Windows, Linux shell и Codespaces
 
+#### Запуск IDR, просмотр списка удаленных репозиториев
 ![](img/vscode-start.png)
-![](img/git-clone-gitlab-https.png)
-![](img/git-remote-add-gitlab.png)
-![](img/open-netologydevops-graphis.png)
-![](img/index-changes.png)
+
+#### Создание репозитория в Gitlab
 ![](img/gitlab-new-repo.png)
+
+#### Тестовое выполнение команд git remote -v, git clone, git init, git remote add 
+![](img/git-remote-add-gitlab.png)
+
+#### Переход в Codespaces
+![](img/open-netologydevops-graphis.png)
+
+#### Редактирование файла README.md, попытка сохранения через графические средства IDE
+![](img/index-changes.png)
+
+#### Commit & Push посредством IDE
 ![](img/commit-push.png)
+
+#### Просмотр активностей проекта в Gitlab
 ![](img/git-lab-project-overview.png)
+
+#### Просмотр списка удаленных репозиториев, выполнение git push посредством SSH
 ![](img/git-push-ssh.png)
+
+#### Клонирование репозитория origin в проект Gitlab
 ![](img/git-remote-add-github-ssh.png)
+
+#### Просмотр коммитов и тегов в графическом режиме
 ![](img/vs-code-gitlens-commitgraph-tags.png)
+
+#### Работа через WEB-интерфейс Codespaces
 ![](img/codespaces-web-ide.png)
 
 
