@@ -7,6 +7,8 @@
 
 # Here is first homework presentation:
 
+[Description of the development process](https://github.com/smproskuryakov/netology-devops/blob/master/01-intro/Description%20of%20the%20development%20process.md)
+
 ## Markdown
 ![Markdown](img/netology-md.bmp)
 ## Bash
@@ -15,6 +17,8 @@
 ![Terraform](img/netology-tf.bmp)
 ## YAML
 ![YAML](img/netology-yaml.bmp)
+
+
 
 <!---
 smproskuryakov/smproskuryakov is a ✨ special ✨ repository because its `README.md` (this file) appears on your GitHub profile.
