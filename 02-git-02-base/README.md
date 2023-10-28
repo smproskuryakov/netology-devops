@@ -2,7 +2,7 @@
 
 ## Gitlab. Добавление и просмотр удаленных репозиториев по протоколам SSH и HTTPS
 
- `
+<pre>
 @smproskuryakov ➜ /workspaces/netology-devops (master) $ **git remote -v**
 *origin  https://github.com/smproskuryakov/netology-devops (fetch)
 origin  https://github.com/smproskuryakov/netology-devops (push)*
@@ -26,7 +26,7 @@ gitlab-ssh      git@gitlab.com:netology-devops-35/netology-devops.git (push)
 origin  https://github.com/smproskuryakov/netology-devops (fetch)
 origin  https://github.com/smproskuryakov/netology-devops (push)*
 @smproskuryakov ➜ /workspaces/netology-devops (master) $ 
- `
+</pre>
 
 
 #### Работа с тегами
