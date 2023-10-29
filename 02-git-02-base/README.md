@@ -58,14 +58,6 @@ origin  https://github.com/smproskuryakov/netology-devops (push)<br>
 
 ![](img/open-netologydevops-graphis.png)
 
-#### Редактирование файла README.md, попытка сохранения через графические средства IDE
-
-![](img/index-changes.png)
-
-#### Commit & Push посредством IDE
-
-![](img/commit-push.png)
-
 #### Просмотр активностей проекта в Gitlab
 
 ![](img/git-lab-project-overview.png)
@@ -77,14 +69,6 @@ origin  https://github.com/smproskuryakov/netology-devops (push)<br>
 #### Клонирование репозитория origin в проект Gitlab
 
 ![](img/git-remote-add-github-ssh.png)
-
-#### Просмотр коммитов и тегов в графическом режиме
-
-![](img/vs-code-gitlens-commitgraph-tags.png)
-
-#### Работа через WEB-интерфейс Codespaces
-
-![](img/codespaces-web-ide.png)
 
 
 
@@ -204,3 +188,18 @@ To gitlab.com:netology-devops-35/netology-devops.git
 
 ## 4. Работа с историей коммитов и ветвлениями
 
+#### Редактирование файла README.md, попытка сохранения через графические средства IDE
+
+![](img/index-changes.png)
+
+#### Commit & Push посредством IDE
+
+![](img/commit-push.png)
+
+#### Просмотр коммитов и тегов в графическом режиме
+
+![](img/vs-code-gitlens-commitgraph-tags.png)
+
+#### Работа через WEB-интерфейс Codespaces
+
+![](img/codespaces-web-ide.png)
