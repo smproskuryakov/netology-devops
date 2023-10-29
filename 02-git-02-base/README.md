@@ -4,8 +4,8 @@
 
 <pre>
 @smproskuryakov ➜ /workspaces/netology-devops (master) $ <b>git remote -v</b>
-origin  https://github.com/smproskuryakov/netology-devops (fetch)
-origin  https://github.com/smproskuryakov/netology-devops (push)
+<i>origin  https://github.com/smproskuryakov/netology-devops (fetch)
+origin  https://github.com/smproskuryakov/netology-devops (push)</i>
 
 @smproskuryakov ➜ /workspaces/netology-devops (master) $ <b>git remote add gitlab https://gitlab.com/netology-devops-35/netology-devops.git</b>
 
@@ -85,7 +85,7 @@ origin  https://github.com/smproskuryakov/netology-devops (push)</i>
 <pre>
 @smproskuryakov ➜ /workspaces/netology-devops (master) $ <b>git show v0.0</b>
 
-commit 45861c2efa74d3fdb302cb64efe78652d91e50e5 (HEAD -> master, tag: v0.0, gitlab-ssh/master, github-ssh/master)
+<i>commit 45861c2efa74d3fdb302cb64efe78652d91e50e5 (HEAD -> master, tag: v0.0, gitlab-ssh/master, github-ssh/master)
 Author: smproskuryakov <139803641+smproskuryakov@users.noreply.github.com>
 Date:   Sat Oct 28 17:20:29 2023 +0000
 
@@ -97,13 +97,13 @@ index b0c010a..c912a81 100644
 +++ b/02-git-02-base/README.md
 @@ -31,17 +31,37 @@ origin  https://github.com/smproskuryakov/netology-devops (push)
 
- ## Работа с IDE VS Code в графическом режиме ОС Windows, Linux shell и Codespaces
+ ## Работа с IDE VS Code в графическом режиме ОС Windows, Linux shell и Codespaces</i>
 
 </pre>
 
 <pre>
 @smproskuryakov ➜ /workspaces/netology-devops (master) $ **git log --grep "First commit"**
-commit 9bb3575b4748ff3579ffd8153ba999dc74b85dad
+<i>commit 9bb3575b4748ff3579ffd8153ba999dc74b85dad
 Author: smproskuryakov <smproskuryakov@yandex.ru>
 Date:   Tue Oct 17 15:18:44 2023 +0300
 
@@ -127,7 +127,7 @@ Date:   Tue Oct 17 15:18:44 2023 +0300
 diff --git a/02-git-vcs/README.md b/02-git-vcs/README.md
 new file mode 100644
 index 0000000..e69de29
-@smproskuryakov ➜ /workspaces/netology-devops (master) $
+@smproskuryakov ➜ /workspaces/netology-devops (master) $</i>
 </pre>
 
 
