@@ -80,7 +80,7 @@ origin  https://github.com/smproskuryakov/netology-devops (push)</i><br>
 
 #### Работа с тегами
 
-<pre></pre>
+<pre>
 <span style="color:green;">@smproskuryakov ➜ /workspaces/netology-devops (master)</span>> $ <b>git tag v0.0 HEAD</b> // Легековесный тег на HEAD-коммите
 
 
