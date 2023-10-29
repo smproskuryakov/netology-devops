@@ -103,16 +103,16 @@ index b0c010a..c912a81 100644
 </pre>
 
 <pre>
-<span style="color:green;">@smproskuryakov ➜ /workspaces/netology-devops (master)</span>> $ **git log --grep "First commit"**
+<span style="color:green;">@smproskuryakov ➜ /workspaces/netology-devops (master)</span>> $ <b>git log --grep "First commit"</b>
 <i>commit 9bb3575b4748ff3579ffd8153ba999dc74b85dad
 Author: smproskuryakov <smproskuryakov@yandex.ru>
 Date:   Tue Oct 17 15:18:44 2023 +0300
 
     First commit
 
-**git tag -a v0.2 -m "First commit" 9bb3575b4748ff3579ffd8153ba999dc74b85dad**
+<b>git tag -a v0.2 -m "First commit" 9bb3575b4748ff3579ffd8153ba999dc74b85dad</b>
 
-<span style="color:green;">@smproskuryakov ➜ /workspaces/netology-devops (master)</span>> $ **git show v0.2**
+<span style="color:green;">@smproskuryakov ➜ /workspaces/netology-devops (master)</span>> $ <b>git show v0.2</b>
 tag v0.2
 Tagger: smproskuryakov <139803641+smproskuryakov@users.noreply.github.com>
 Date:   Sat Oct 28 17:46:34 2023 +0000
