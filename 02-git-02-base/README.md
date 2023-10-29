@@ -4,7 +4,7 @@
 
 $${\color{red}Welcome \space \color{lightblue}To \space \color{orange}Stackoverflow}$$
 
-$${\color{green}@smproskuryakov ➜ /workspaces/netology-devops (master) <b>git remote -v</b><br>$$
+$${\color{green}"@smproskuryakov ➜ /workspaces/netology-devops (master)}$$ <b>git remote -v</b><br>
 <pre>
 <i>origin  https://github.com/smproskuryakov/netology-devops (fetch)<br>
 origin  https://github.com/smproskuryakov/netology-devops (push)</i><br>
