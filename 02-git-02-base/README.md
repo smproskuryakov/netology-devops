@@ -7,7 +7,7 @@ $${\color{red}Welcome \space \color{lightblue}To \space \color{orange}Stackoverf
 
 $\textsf{\color{red}Red text}$
 
-$\textsf{\color{green}@smproskuryakov}$ $\textsf{\color{black}➜}$ $\textsf{\color{purple}/workspaces/netology-devops}$ $\textsf{\color{red}Red(master)}$ <b> git remote -v</b><br>
+$\textsf{\color{green}@smproskuryakov}$ $\textsf{\color{black}➜}$ $\textsf{\color{purple}/workspaces/netology-devops}$ $\textsf{\color{red}(master)}$ <b> git remote -v</b><br>
 
 <pre>
 <i>origin  https://github.com/smproskuryakov/netology-devops (fetch)<br>
