@@ -90,7 +90,7 @@ origin  https://github.com/smproskuryakov/netology-devops (push)<br>
 
 ## 3. Работа с тегами
 
-<pre>
+
 $\textsf{\color{green}@smproskuryakov}$ $\textsf{\color{black}➜}$ $\textsf{\color{purple}/workspaces/netology-devops}$ $\textsf{\color{red}(master)}$ >$> $ <b>git tag v0.0 HEAD</b> // Легековесный тег на HEAD-коммите
 
 
@@ -114,9 +114,7 @@ index b0c010a..c912a81 100644
 </i>
 </pre>
 
-</pre>
 
-<pre>
 $\textsf{\color{green}@smproskuryakov}$ $\textsf{\color{black}➜}$ $\textsf{\color{purple}/workspaces/netology-devops}$ $\textsf{\color{red}(master)}$ >$> $ <b>git log --grep "First commit"</b>
 <pre>
 <i>
@@ -125,13 +123,14 @@ Author: smproskuryakov <smproskuryakov@yandex.ru>
 Date:   Tue Oct 17 15:18:44 2023 +0300
 
     First commit
-
 </i>
 </pre>
 
 $\textsf{\color{green}@smproskuryakov}$ $\textsf{\color{black}➜}$ $\textsf{\color{purple}/workspaces/netology-devops}$ $\textsf{\color{red}(master)}$ >$> $<b>git tag -a v0.2 -m "First commit" 9bb3575b4748ff3579ffd8153ba999dc74b85dad</b>
 
 $\textsf{\color{green}@smproskuryakov}$ $\textsf{\color{black}➜}$ $\textsf{\color{purple}/workspaces/netology-devops}$ $\textsf{\color{red}(master)}$ >$> $ <b>git show v0.2</b>
+<pre>
+<i>
 tag v0.2
 Tagger: smproskuryakov <139803641+smproskuryakov@users.noreply.github.com>
 Date:   Sat Oct 28 17:46:34 2023 +0000
@@ -150,11 +149,10 @@ index 0000000..e69de29
 $\textsf{\color{green}@smproskuryakov}$ $\textsf{\color{black}➜}$ $\textsf{\color{purple}/workspaces/netology-devops}$ $\textsf{\color{red}(master)}$ >$> $
 </i>
 </pre>
-</pre>
 
 
 
-<pre>
+
 $\textsf{\color{green}@smproskuryakov}$ $\textsf{\color{black}➜}$ $\textsf{\color{purple}/workspaces/netology-devops}$ $\textsf{\color{red}(master)}$ >$> $ <b>git push gitlab-ssh v0.0</b>
 <pre>
 <i>
@@ -198,7 +196,6 @@ To gitlab.com:netology-devops-35/netology-devops.git
 </i>
 </pre>
 $\textsf{\color{green}@smproskuryakov}$ $\textsf{\color{black}➜}$ $\textsf{\color{purple}/workspaces/netology-devops}$ $\textsf{\color{red}(master)}$ >$> $
-</pre>
 
 #### Просмотр тегов в графическом режиме, удаление случайного тега "show"
 
