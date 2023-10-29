@@ -109,8 +109,9 @@ Author: smproskuryakov <smproskuryakov@yandex.ru>
 Date:   Tue Oct 17 15:18:44 2023 +0300
 
     First commit
+</i>
 
-<b>git tag -a v0.2 -m "First commit" 9bb3575b4748ff3579ffd8153ba999dc74b85dad</b>
+<span style="color:green;">@smproskuryakov ➜ /workspaces/netology-devops (master)</span>> $<b>git tag -a v0.2 -m "First commit" 9bb3575b4748ff3579ffd8153ba999dc74b85dad</b>
 
 <span style="color:green;">@smproskuryakov ➜ /workspaces/netology-devops (master)</span>> $ <b>git show v0.2</b>
 tag v0.2
