@@ -204,7 +204,7 @@ To gitlab.com:netology-devops-35/netology-devops.git
 
 ![](img/codespaces-web-ide.png)
 
-####
+#### Работа через графический интерфейс IDE VS Code совокупно с терминалом MSYS2
 ![](img/git-log.png)
 
 ####
