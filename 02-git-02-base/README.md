@@ -79,7 +79,7 @@ origin  https://github.com/smproskuryakov/netology-devops (push)*
 
 #### Работа с тегами
 
-<pre>
+
 <b>git tag v0.0 HEAD</b> // Легековесный тег на HEAD-коммите
 
 @smproskuryakov ➜ /workspaces/netology-devops (master) $ <b>git show v0.0</b>
@@ -99,7 +99,6 @@ index b0c010a..c912a81 100644
 
  ## Работа с IDE VS Code в графическом режиме ОС Windows, Linux shell и Codespaces
 
-```
 </pre>
 
 ~~~
