@@ -25,7 +25,7 @@ origin  https://github.com/smproskuryakov/netology-devops (push)<br>
 </i>
 </pre>
 
-$\textsf{\color{green}@smproskuryakov}$ $\textsf{\color{black}➜}$ $\textsf{\color{purple}/workspaces/netology-devops}$ $\textsf{\color{red}(master)}$ >$> $ <b>git remote -v</b><br>
+$\textsf{\color{green}@smproskuryakov}$ $\textsf{\color{black}➜}$ $\textsf{\color{purple}/workspaces/netology-devops}$ $\textsf{\color{red}(master)}$ >$ <b>git remote -v</b><br>
 <pre>
 <i>
 github-ssh      git@github.com:smproskuryakov/netology-devops.git (fetch)<br>
@@ -91,10 +91,10 @@ origin  https://github.com/smproskuryakov/netology-devops (push)<br>
 ## 3. Работа с тегами
 
 
-$\textsf{\color{green}@smproskuryakov}$ $\textsf{\color{black}➜}$ $\textsf{\color{purple}/workspaces/netology-devops}$ $\textsf{\color{red}(master)}$ >$> $ <b>git tag v0.0 HEAD</b> // Легековесный тег на HEAD-коммите
+$\textsf{\color{green}@smproskuryakov}$ $\textsf{\color{black}➜}$ $\textsf{\color{purple}/workspaces/netology-devops}$ $\textsf{\color{red}(master)}$ >$ <b>git tag v0.0 HEAD</b> // Легековесный тег на HEAD-коммите
 
 
-$\textsf{\color{green}@smproskuryakov}$ $\textsf{\color{black}➜}$ $\textsf{\color{purple}/workspaces/netology-devops}$ $\textsf{\color{red}(master)}$ >$> $ <b>git show v0.0</b>
+$\textsf{\color{green}@smproskuryakov}$ $\textsf{\color{black}➜}$ $\textsf{\color{purple}/workspaces/netology-devops}$ $\textsf{\color{red}(master)}$ >$ <b>git show v0.0</b>
 
 <pre>
 <i>
@@ -115,7 +115,7 @@ index b0c010a..c912a81 100644
 </pre>
 
 
-$\textsf{\color{green}@smproskuryakov}$ $\textsf{\color{black}➜}$ $\textsf{\color{purple}/workspaces/netology-devops}$ $\textsf{\color{red}(master)}$ >$> $ <b>git log --grep "First commit"</b>
+$\textsf{\color{green}@smproskuryakov}$ $\textsf{\color{black}➜}$ $\textsf{\color{purple}/workspaces/netology-devops}$ $\textsf{\color{red}(master)}$ >$ <b>git log --grep "First commit"</b>
 <pre>
 <i>
 commit 9bb3575b4748ff3579ffd8153ba999dc74b85dad
@@ -126,9 +126,9 @@ Date:   Tue Oct 17 15:18:44 2023 +0300
 </i>
 </pre>
 
-$\textsf{\color{green}@smproskuryakov}$ $\textsf{\color{black}➜}$ $\textsf{\color{purple}/workspaces/netology-devops}$ $\textsf{\color{red}(master)}$ >$> $<b>git tag -a v0.2 -m "First commit" 9bb3575b4748ff3579ffd8153ba999dc74b85dad</b>
+$\textsf{\color{green}@smproskuryakov}$ $\textsf{\color{black}➜}$ $\textsf{\color{purple}/workspaces/netology-devops}$ $\textsf{\color{red}(master)}$ >$<b>git tag -a v0.2 -m "First commit" 9bb3575b4748ff3579ffd8153ba999dc74b85dad</b>
 
-$\textsf{\color{green}@smproskuryakov}$ $\textsf{\color{black}➜}$ $\textsf{\color{purple}/workspaces/netology-devops}$ $\textsf{\color{red}(master)}$ >$> $ <b>git show v0.2</b>
+$\textsf{\color{green}@smproskuryakov}$ $\textsf{\color{black}➜}$ $\textsf{\color{purple}/workspaces/netology-devops}$ $\textsf{\color{red}(master)}$ >$ <b>git show v0.2</b>
 <pre>
 <i>
 tag v0.2
@@ -146,14 +146,14 @@ Date:   Tue Oct 17 15:18:44 2023 +0300
 diff --git a/02-git-vcs/README.md b/02-git-vcs/README.md
 new file mode 100644
 index 0000000..e69de29
-$\textsf{\color{green}@smproskuryakov}$ $\textsf{\color{black}➜}$ $\textsf{\color{purple}/workspaces/netology-devops}$ $\textsf{\color{red}(master)}$ >$> $
+$\textsf{\color{green}@smproskuryakov}$ $\textsf{\color{black}➜}$ $\textsf{\color{purple}/workspaces/netology-devops}$ $\textsf{\color{red}(master)}$ >$
 </i>
 </pre>
 
 
 
 
-$\textsf{\color{green}@smproskuryakov}$ $\textsf{\color{black}➜}$ $\textsf{\color{purple}/workspaces/netology-devops}$ $\textsf{\color{red}(master)}$ >$> $ <b>git push gitlab-ssh v0.0</b>
+$\textsf{\color{green}@smproskuryakov}$ $\textsf{\color{black}➜}$ $\textsf{\color{purple}/workspaces/netology-devops}$ $\textsf{\color{red}(master)}$ >$ <b>git push gitlab-ssh v0.0</b>
 <pre>
 <i>
 Enter passphrase for key '/home/codespace/.ssh/id_rsa':
@@ -162,7 +162,7 @@ To gitlab.com:netology-devops-35/netology-devops.git
  * [new tag]         v0.0 -> v0.0
 </i>
 </pre>
-$\textsf{\color{green}@smproskuryakov}$ $\textsf{\color{black}➜}$ $\textsf{\color{purple}/workspaces/netology-devops}$ $\textsf{\color{red}(master)}$ >$> $ <b>git push github-ssh v0.0</b>
+$\textsf{\color{green}@smproskuryakov}$ $\textsf{\color{black}➜}$ $\textsf{\color{purple}/workspaces/netology-devops}$ $\textsf{\color{red}(master)}$ >$ <b>git push github-ssh v0.0</b>
 <pre>
 <i>
 Enter passphrase for key '/home/codespace/.ssh/id_rsa':
@@ -171,7 +171,7 @@ To github.com:smproskuryakov/netology-devops.git
  * [new tag]         v0.0 -> v0.0
 </i>
 </pre>
-$\textsf{\color{green}@smproskuryakov}$ $\textsf{\color{black}➜}$ $\textsf{\color{purple}/workspaces/netology-devops}$ $\textsf{\color{red}(master)}$ >$> $ <b>git push github-ssh --tags</b>
+$\textsf{\color{green}@smproskuryakov}$ $\textsf{\color{black}➜}$ $\textsf{\color{purple}/workspaces/netology-devops}$ $\textsf{\color{red}(master)}$ >$ <b>git push github-ssh --tags</b>
 <pre>
 <i>
 Enter passphrase for key '/home/codespace/.ssh/id_rsa':
@@ -183,7 +183,7 @@ To github.com:smproskuryakov/netology-devops.git
  * [new tag]         v0.2 -> v0.2
 </i>
 </pre>
-$\textsf{\color{green}@smproskuryakov}$ $\textsf{\color{black}➜}$ $\textsf{\color{purple}/workspaces/netology-devops}$ $\textsf{\color{red}(master)}$ >$> $ <b>git push gitlab-ssh --tags</b>
+$\textsf{\color{green}@smproskuryakov}$ $\textsf{\color{black}➜}$ $\textsf{\color{purple}/workspaces/netology-devops}$ $\textsf{\color{red}(master)}$ >$ <b>git push gitlab-ssh --tags</b>
 <pre>
 <i>
 Enter passphrase for key '/home/codespace/.ssh/id_rsa':
@@ -195,7 +195,7 @@ To gitlab.com:netology-devops-35/netology-devops.git
  * [new tag]         v0.2 -> v0.2
 </i>
 </pre>
-$\textsf{\color{green}@smproskuryakov}$ $\textsf{\color{black}➜}$ $\textsf{\color{purple}/workspaces/netology-devops}$ $\textsf{\color{red}(master)}$ >$> $
+
 
 #### Просмотр тегов в графическом режиме, удаление случайного тега "show"
 
