@@ -3,28 +3,28 @@
 ## Gitlab. Добавление и просмотр удаленных репозиториев по протоколам SSH и HTTPS
 
 <pre>
-@smproskuryakov ➜ /workspaces/netology-devops (master) $ **git remote -v**
-*origin  https://github.com/smproskuryakov/netology-devops (fetch)
-origin  https://github.com/smproskuryakov/netology-devops (push)*
+@smproskuryakov ➜ /workspaces/netology-devops (master) $ <b>git remote -v</b>
+origin  https://github.com/smproskuryakov/netology-devops (fetch)
+origin  https://github.com/smproskuryakov/netology-devops (push)
 
-@smproskuryakov ➜ /workspaces/netology-devops (master) $ **git remote add gitlab https://gitlab.com/netology-devops-35/netology-devops.git**
+@smproskuryakov ➜ /workspaces/netology-devops (master) $ <b>git remote add gitlab https://gitlab.com/netology-devops-35/netology-devops.git</b>
 
-@smproskuryakov ➜ /workspaces/netology-devops (master) $ **git remote -v**
-*gitlab  https://gitlab.com/netology-devops-35/netology-devops.git (fetch)
+@smproskuryakov ➜ /workspaces/netology-devops (master) $ <b>git remote -v</b>
+<i>gitlab  https://gitlab.com/netology-devops-35/netology-devops.git (fetch)
 gitlab  https://gitlab.com/netology-devops-35/netology-devops.git (push)
 origin  https://github.com/smproskuryakov/netology-devops (fetch)
-origin  https://github.com/smproskuryakov/netology-devops (push)*
+origin  https://github.com/smproskuryakov/netology-devops (push)</i>
 @smproskuryakov ➜ /workspaces/netology-devops (master) $
 
-@smproskuryakov ➜ /workspaces/netology-devops (master) $ **git remote -v**
-*github-ssh      git@github.com:smproskuryakov/netology-devops.git (fetch)
+@smproskuryakov ➜ /workspaces/netology-devops (master) $ <b>git remote -v</b>
+<i>github-ssh      git@github.com:smproskuryakov/netology-devops.git (fetch)
 github-ssh      git@github.com:smproskuryakov/netology-devops.git (push)
 gitlab  https://gitlab.com/netology-devops-35/netology-devops.git (fetch)
 gitlab  https://gitlab.com/netology-devops-35/netology-devops.git (push)
 gitlab-ssh      git@gitlab.com:netology-devops-35/netology-devops.git (fetch)
 gitlab-ssh      git@gitlab.com:netology-devops-35/netology-devops.git (push)
 origin  https://github.com/smproskuryakov/netology-devops (fetch)
-origin  https://github.com/smproskuryakov/netology-devops (push)*
+origin  https://github.com/smproskuryakov/netology-devops (push)</i>
 @smproskuryakov ➜ /workspaces/netology-devops (master) $
 </pre>
 
@@ -130,37 +130,38 @@ index 0000000..e69de29
 @smproskuryakov ➜ /workspaces/netology-devops (master) $
 </pre>
 
-<pre>
-**git push origin <tag>
-git push <remote> --tags**
 
-@smproskuryakov ➜ /workspaces/netology-devops (master) $ **git push gitlab-ssh v0.0**
-Enter passphrase for key '/home/codespace/.ssh/id_rsa':
+<b>git push origin <tag></b>
+<b>git push <remote> --tags</b>
+
+<pre>
+@smproskuryakov ➜ /workspaces/netology-devops (master) $ <b>git push gitlab-ssh v0.0</b>
+<i>Enter passphrase for key '/home/codespace/.ssh/id_rsa':
 Total 0 (delta 0), reused 0 (delta 0), pack-reused 0
 To gitlab.com:netology-devops-35/netology-devops.git
- * [new tag]         v0.0 -> v0.0
-@smproskuryakov ➜ /workspaces/netology-devops (master) $ **git push github-ssh v0.0**
-Enter passphrase for key '/home/codespace/.ssh/id_rsa':
+ * [new tag]         v0.0 -> v0.0</i>
+@smproskuryakov ➜ /workspaces/netology-devops (master) $ <b>git push github-ssh v0.0</b>
+<i>Enter passphrase for key '/home/codespace/.ssh/id_rsa':
 Total 0 (delta 0), reused 0 (delta 0), pack-reused 0
 To github.com:smproskuryakov/netology-devops.git
- * [new tag]         v0.0 -> v0.0
-@smproskuryakov ➜ /workspaces/netology-devops (master) $ **git push github-ssh --tags**
-Enter passphrase for key '/home/codespace/.ssh/id_rsa':
+ * [new tag]         v0.0 -> v0.0</i>
+@smproskuryakov ➜ /workspaces/netology-devops (master) $ <b>git push github-ssh --tags</b>
+<i>Enter passphrase for key '/home/codespace/.ssh/id_rsa':
 Enumerating objects: 1, done.
 Counting objects: 100% (1/1), done.
 Writing objects: 100% (1/1), 180 bytes | 180.00 KiB/s, done.
 Total 1 (delta 0), reused 0 (delta 0), pack-reused 0
 To github.com:smproskuryakov/netology-devops.git
- * [new tag]         v0.2 -> v0.2
-@smproskuryakov ➜ /workspaces/netology-devops (master) $ **git push gitlab-ssh --tags**
-Enter passphrase for key '/home/codespace/.ssh/id_rsa':
+ * [new tag]         v0.2 -> v0.2</i>
+@smproskuryakov ➜ /workspaces/netology-devops (master) $ <b>git push gitlab-ssh --tags</b>
+<i>Enter passphrase for key '/home/codespace/.ssh/id_rsa':
 Enumerating objects: 1, done.
 Counting objects: 100% (1/1), done.
 Writing objects: 100% (1/1), 180 bytes | 180.00 KiB/s, done.
 Total 1 (delta 0), reused 0 (delta 0), pack-reused 0
 To gitlab.com:netology-devops-35/netology-devops.git
  * [new tag]         v0.2 -> v0.2
-@smproskuryakov ➜ /workspaces/netology-devops (master) $
+@smproskuryakov ➜ /workspaces/netology-devops (master) $</i>
 </pre>
 
 #### Просмотр тегов в графическом режиме, удаление случайного тега "show"
