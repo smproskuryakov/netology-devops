@@ -1,6 +1,6 @@
 # "Основы Git"
 
-## Gitlab. Добавление и просмотр удаленных репозиториев по протоколам SSH и HTTPS
+## 1. Gitlab. Добавление и просмотр удаленных репозиториев по протоколам SSH и HTTPS
 
 
 <pre>
@@ -30,7 +30,7 @@ origin  https://github.com/smproskuryakov/netology-devops (push)</i><br>
 </pre>
 
 
-## Работа с IDE VS Code в графическом режиме ОС Windows, Linux shell и Codespaces
+## 2. Работа с IDE VS Code в графическом режиме ОС Windows, Linux shell и Codespaces
 
 #### Запуск IDE, просмотр списка удаленных репозиториев
 
@@ -78,7 +78,7 @@ origin  https://github.com/smproskuryakov/netology-devops (push)</i><br>
 
 
 
-#### Работа с тегами
+## 3. Работа с тегами
 
 <pre>
 <span style="color:green;">@smproskuryakov ➜ /workspaces/netology-devops (master)</span>> $ <b>git tag v0.0 HEAD</b> // Легековесный тег на HEAD-коммите
@@ -169,5 +169,5 @@ To gitlab.com:netology-devops-35/netology-devops.git
 ![Просмотр тегов в графическом режиме, удаление случайного тега "show"](img/tags-graph.png)
 
 
-## Работа с историей коммитов и ветвлениями
+## 4. Работа с историей коммитов и ветвлениями
 
