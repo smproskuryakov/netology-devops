@@ -79,11 +79,12 @@ origin  https://github.com/smproskuryakov/netology-devops (push)*
 
 #### Работа с тегами
 
+<pre>
 <b>git tag v0.0 HEAD</b> // Легековесный тег на HEAD-коммите
 
-```shell
 @smproskuryakov ➜ /workspaces/netology-devops (master) $ <b>git show v0.0</b>
 
+```shell
 commit 45861c2efa74d3fdb302cb64efe78652d91e50e5 (HEAD -> master, tag: v0.0, gitlab-ssh/master, github-ssh/master)
 Author: smproskuryakov <139803641+smproskuryakov@users.noreply.github.com>
 Date:   Sat Oct 28 17:20:29 2023 +0000
@@ -99,6 +100,7 @@ index b0c010a..c912a81 100644
  ## Работа с IDE VS Code в графическом режиме ОС Windows, Linux shell и Codespaces
 
 ```
+</pre>
 
 ~~~
 @smproskuryakov ➜ /workspaces/netology-devops (master) $ **git log --grep "First commit"**
