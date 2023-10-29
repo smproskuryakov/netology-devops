@@ -2,30 +2,31 @@
 
 ## Gitlab. Добавление и просмотр удаленных репозиториев по протоколам SSH и HTTPS
 
+
 <p>
-<span style="color:green;">@smproskuryakov ➜ /workspaces/netology-devops (master)</span> <b>git remote -v</b>
-<i>origin  https://github.com/smproskuryakov/netology-devops (fetch)
-origin  https://github.com/smproskuryakov/netology-devops (push)</i>
+<span style="color:green;">@smproskuryakov ➜ /workspaces/netology-devops (master)</span> <b>git remote -v</b>\
+<i>origin  https://github.com/smproskuryakov/netology-devops (fetch)\
+origin  https://github.com/smproskuryakov/netology-devops (push)</i>\
 
-<span style="color:green;">@smproskuryakov ➜ /workspaces/netology-devops (master)</span>> $ <b>git remote add gitlab https://gitlab.com/netology-devops-35/netology-devops.git</b>
+<span style="color:green;">@smproskuryakov ➜ /workspaces/netology-devops (master)</span> <b>git remote add gitlab https://gitlab.com/netology-devops-35/netology-devops.git</b>\
 
-<span style="color:green;">@smproskuryakov ➜ /workspaces/netology-devops (master)</span>> $ <b>git remote -v</b>
-<i>gitlab  https://gitlab.com/netology-devops-35/netology-devops.git (fetch)
-gitlab  https://gitlab.com/netology-devops-35/netology-devops.git (push)
-origin  https://github.com/smproskuryakov/netology-devops (fetch)
-origin  https://github.com/smproskuryakov/netology-devops (push)</i>
-<span style="color:green;">@smproskuryakov ➜ /workspaces/netology-devops (master)</span>> $
+<span style="color:green;">@smproskuryakov ➜ /workspaces/netology-devops (master)</span> <b>git remote -v</b>\
+<i>gitlab  https://gitlab.com/netology-devops-35/netology-devops.git (fetch)\
+gitlab  https://gitlab.com/netology-devops-35/netology-devops.git (push)\
+origin  https://github.com/smproskuryakov/netology-devops (fetch)\
+origin  https://github.com/smproskuryakov/netology-devops (push)</i>\
+<span style="color:green;">@smproskuryakov ➜ /workspaces/netology-devops (master)</span>\
 
-<span style="color:green;">@smproskuryakov ➜ /workspaces/netology-devops (master)</span>> $ <b>git remote -v</b>
-<i>github-ssh      git@github.com:smproskuryakov/netology-devops.git (fetch)
-github-ssh      git@github.com:smproskuryakov/netology-devops.git (push)
-gitlab  https://gitlab.com/netology-devops-35/netology-devops.git (fetch)
-gitlab  https://gitlab.com/netology-devops-35/netology-devops.git (push)
-gitlab-ssh      git@gitlab.com:netology-devops-35/netology-devops.git (fetch)
-gitlab-ssh      git@gitlab.com:netology-devops-35/netology-devops.git (push)
-origin  https://github.com/smproskuryakov/netology-devops (fetch)
-origin  https://github.com/smproskuryakov/netology-devops (push)</i>
-<span style="color:green;">@smproskuryakov ➜ /workspaces/netology-devops (master)</span>> $
+<span style="color:green;">@smproskuryakov ➜ /workspaces/netology-devops (master)</span>> $ <b>git remote -v</b>\
+<i>github-ssh      git@github.com:smproskuryakov/netology-devops.git (fetch)\
+github-ssh      git@github.com:smproskuryakov/netology-devops.git (push)\
+gitlab  https://gitlab.com/netology-devops-35/netology-devops.git (fetch)\
+gitlab  https://gitlab.com/netology-devops-35/netology-devops.git (push)\
+gitlab-ssh      git@gitlab.com:netology-devops-35/netology-devops.git (fetch)\
+gitlab-ssh      git@gitlab.com:netology-devops-35/netology-devops.git (push)\
+origin  https://github.com/smproskuryakov/netology-devops (fetch)\
+origin  https://github.com/smproskuryakov/netology-devops (push)</i>\
+<span style="color:green;">@smproskuryakov ➜ /workspaces/netology-devops (master)</span>\
 </p>
 
 
