@@ -203,3 +203,24 @@ To gitlab.com:netology-devops-35/netology-devops.git
 #### Работа через WEB-интерфейс Codespaces
 
 ![](img/codespaces-web-ide.png)
+
+####
+![](img/git-log.png)
+
+####
+![](img/git-log.png)
+
+####
+![](img/git-checkout.png)
+
+####
+![](img/add-readme-and-push.png)
+
+####
+![](img/newbranch-git-log.png)
+
+####
+![](img/git-show.png)
+
+####
+![](img/git-lens-commitgraph.png)
