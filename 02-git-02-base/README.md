@@ -3,7 +3,7 @@
 ## Gitlab. Добавление и просмотр удаленных репозиториев по протоколам SSH и HTTPS
 
 
-<p>
+<pre>
 <span style="color:green;">@smproskuryakov ➜ /workspaces/netology-devops (master)</span> <b>git remote -v</b><br>
 <i>origin  https://github.com/smproskuryakov/netology-devops (fetch)<br>
 origin  https://github.com/smproskuryakov/netology-devops (push)</i><br>
@@ -27,7 +27,7 @@ gitlab-ssh      git@gitlab.com:netology-devops-35/netology-devops.git (push)<br>
 origin  https://github.com/smproskuryakov/netology-devops (fetch)<br>
 origin  https://github.com/smproskuryakov/netology-devops (push)</i><br>
 <span style="color:green;">@smproskuryakov ➜ /workspaces/netology-devops (master)</span><br>
-</p>
+</pre>
 
 
 ## Работа с IDE VS Code в графическом режиме ОС Windows, Linux shell и Codespaces
@@ -133,8 +133,6 @@ index 0000000..e69de29
 </pre>
 
 
-<b>git push origin <tag></b>
-<b>git push <remote> --tags</b>
 
 <pre>
 <span style="color:green;">@smproskuryakov ➜ /workspaces/netology-devops (master)</span>> $ <b>git push gitlab-ssh v0.0</b>
@@ -162,8 +160,8 @@ Counting objects: 100% (1/1), done.
 Writing objects: 100% (1/1), 180 bytes | 180.00 KiB/s, done.
 Total 1 (delta 0), reused 0 (delta 0), pack-reused 0
 To gitlab.com:netology-devops-35/netology-devops.git
- * [new tag]         v0.2 -> v0.2
-<span style="color:green;">@smproskuryakov ➜ /workspaces/netology-devops (master)</span>> $</i>
+ * [new tag]         v0.2 -> v0.2</i>
+<span style="color:green;">@smproskuryakov ➜ /workspaces/netology-devops (master)</span>> $
 </pre>
 
 #### Просмотр тегов в графическом режиме, удаление случайного тега "show"
