@@ -4,7 +4,7 @@
 
 
 <pre>
-<span style="color:green">*@smproskuryakov ➜ /workspaces/netology-devops (master)*</span> <b>git remote -v</b><br>
+<span style="color:green"><em>@smproskuryakov ➜ /workspaces/netology-devops (master)</em></span> <b>git remote -v</b><br>
 <i>origin  https://github.com/smproskuryakov/netology-devops (fetch)<br>
 origin  https://github.com/smproskuryakov/netology-devops (push)</i><br>
 
