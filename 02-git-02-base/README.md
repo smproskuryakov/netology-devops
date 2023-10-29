@@ -80,10 +80,10 @@ origin  https://github.com/smproskuryakov/netology-devops (push)</i><br>
 
 #### Работа с тегами
 
+<pre></pre>
+<span style="color:green;">@smproskuryakov ➜ /workspaces/netology-devops (master)</span>> $ <b>git tag v0.0 HEAD</b> // Легековесный тег на HEAD-коммите
 
-<b>git tag v0.0 HEAD</b> // Легековесный тег на HEAD-коммите
 
-<pre>
 <span style="color:green;">@smproskuryakov ➜ /workspaces/netology-devops (master)</span>> $ <b>git show v0.0</b>
 
 <i>commit 45861c2efa74d3fdb302cb64efe78652d91e50e5 (HEAD -> master, tag: v0.0, gitlab-ssh/master, github-ssh/master)
