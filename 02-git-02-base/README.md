@@ -2,8 +2,8 @@
 
 ## Gitlab. Добавление и просмотр удаленных репозиториев по протоколам SSH и HTTPS
 
-
-<span style="color:green;">@smproskuryakov ➜ /workspaces/netology-devops (master)</span>> $ <b>git remote -v</b>
+<p>
+<span style="color:green;">@smproskuryakov ➜ /workspaces/netology-devops (master)</span> <b>git remote -v</b>\n
 <i>origin  https://github.com/smproskuryakov/netology-devops (fetch)
 origin  https://github.com/smproskuryakov/netology-devops (push)</i>
 
@@ -26,7 +26,7 @@ gitlab-ssh      git@gitlab.com:netology-devops-35/netology-devops.git (push)
 origin  https://github.com/smproskuryakov/netology-devops (fetch)
 origin  https://github.com/smproskuryakov/netology-devops (push)</i>
 <span style="color:green;">@smproskuryakov ➜ /workspaces/netology-devops (master)</span>> $
-
+</p>
 
 
 ## Работа с IDE VS Code в графическом режиме ОС Windows, Linux shell и Codespaces
