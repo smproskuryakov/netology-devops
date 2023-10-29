@@ -2,7 +2,7 @@
 
 ## 1. Gitlab. Добавление и просмотр удаленных репозиториев по протоколам SSH и HTTPS
 
-
+$${\color{red}Welcome \space \color{lightblue}To \space \color{orange}Stackoverflow}$$
 
 <span style="color:green"><em>@smproskuryakov ➜ /workspaces/netology-devops (master)</em></span> <b>git remote -v</b><br>
 <pre>
