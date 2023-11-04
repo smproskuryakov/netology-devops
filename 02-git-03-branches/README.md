@@ -7,3 +7,7 @@
 #### 2. Interim result after merge
 
 ![](img/network-interim-result-after-merge.png)
+
+#### 3. Final result with merge rebase.sh into master branch
+
+![](img/git-merge-rebase-to-master.png)
