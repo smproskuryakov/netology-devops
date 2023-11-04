@@ -9,3 +9,5 @@
 
 
 [«Ветвления в Git»](https://github.com/smproskuryakov/netology-devops/blob/master/02-git-03-branches/README.md)
+
+[«Инстументы Git»](https://github.com/smproskuryakov/netology-devops/blob/master/02-git-04-tools/README.md)
